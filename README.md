@@ -1,35 +1,29 @@
-# ImageCompression
+# Foobar
 
-Image Compression With Recurrent Neural Networks
+Foobar is a Pythoen library for dealing with word pluralization.
 
-Requirements
-PyTorch 0.2.0
-Train
-python train.py -f /path/to/your/images/folder/like/mscoco
+## Installation
 
-Encode and Decode
-Encode
-python encoder.py --model checkpoint/encoder_epoch_00000005.pth --input /path/to/your/example.png --cuda --output ex --iterations 16
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
 
-This will output binary codes saved in .npz format.
+```bash
+pip install foobar
+```
 
-Decode
-python decoder.py --model checkpoint/encoder_epoch_00000005.pth --input /path/to/your/example.npz --cuda --output /path/to/output/folder
+## Usage
 
-This will output images of different quality levels.
+```python
+import foobar
 
-Test
-Get Kodak dataset
-bash test/get_kodak.sh
-Encode and decode with RNN model
-bash test/enc_dec.sh
-Encode and decode with JPEG (use convert from ImageMagick)
-bash test/jpeg.sh
-Calculate SSIM
-bash test/calc_ssim.sh
-Draw rate-distortion curve
-python test/draw_rd.py
-Result
-LSTM (Additive Reconstruction), before entropy coding
+foobar.pluralize('word') # returns 'words'
+foobar.pluralize('goose') # returns 'geese'
+foobar.singularize('phenomena') # returns 'phenomenon'
+```
 
-Rate-distortion
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)

@@ -44,7 +44,7 @@ bash test/download_kodak.sh
 ```
 
 ## Training
-
+Loading data takes time
 ```bash
 python train.py -f /path/32x32_images
 ```
@@ -54,9 +54,6 @@ Encode and decode with model
 ```bash
 bash test/enc_dec.sh
 ```
-
-
-
 
 ```python
 import foobar

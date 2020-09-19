@@ -36,14 +36,12 @@ CUDA_VISIBLE_DEVICES=0
 ```
 
 ## Data Preparation
-We first need to prepare the training data. The data is from flicker.com. You can download the data in from link. Then you can generate the 256*256 patches using following script.
+We first need to prepare the training data. We take approximately 3700 images that generates 9 million patches. The data is from flicker.com. You can download data from and patch generation file from [Link](https://github.com/liujiaheng/CompressionData). Then generate the 32*32 patches using following script.
 
-The validation data is the popular kodak dataset.
-
+Testing has been done on popular Kodak Photo dataset
+```bash
 bash data/download_kodak.sh
-
-
-
+```
 
 
 ## Usage

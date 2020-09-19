@@ -1,7 +1,6 @@
 # ImageCompression
 
-Full Resolution Image Compression with Recurrent Neural Networks
-https://arxiv.org/abs/1608.05148v2
+Image Compression With Recurrent Neural Networks
 
 Requirements
 PyTorch 0.2.0

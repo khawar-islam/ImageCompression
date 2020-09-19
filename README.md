@@ -44,7 +44,7 @@ bash data/download_kodak.sh
 ```
 
 
-## Usage
+## Training
 
 ```python
 import foobar

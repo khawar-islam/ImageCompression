@@ -35,7 +35,12 @@ If your machine has multiple GPUs, you can select which GPU you want to run on b
 CUDA_VISIBLE_DEVICES=0
 ```
 
-## Installation
+## Data Preparation
+We first need to prepare the training data. The data is from flicker.com. You can download the data in from link. Then you can generate the 256*256 patches using following script.
+
+The validation data is the popular kodak dataset.
+
+bash data/download_kodak.sh
 
 
 

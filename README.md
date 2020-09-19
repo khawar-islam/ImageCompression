@@ -1,13 +1,23 @@
-# Foobar
+# Image compression with recurrent neural network and generalized divisive normalization
 
 Foobar is a Pythoen library for dealing with word pluralization.
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+```bash
+pip3 install -r requirements.txt
+```
+
+## Requirements
 
 ```bash
-pip install foobar
+python==3.5.6
+numpy==1.15.2
+matplotlib==3.0.0
+scipy==1.1.0
+torchvision==0.6.1
+pillow==5.2.0
+torch==1.5.1
 ```
 
 ## Usage

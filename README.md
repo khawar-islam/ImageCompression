@@ -40,11 +40,23 @@ We first need to prepare the training data. We take approximately 3700 images th
 
 Testing has been done on popular Kodak Photo dataset
 ```bash
-bash data/download_kodak.sh
+bash test/download_kodak.sh
+```
+
+## Training
+
+```bash
+python train.py -f /path/32x32_images
+```
+
+## Test
+Encode and decode with model
+```bash
+bash test/enc_dec.sh
 ```
 
 
-## Training
+
 
 ```python
 import foobar

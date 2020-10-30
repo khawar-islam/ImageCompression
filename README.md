@@ -1,4 +1,4 @@
-# Efficient Image Compression with Recuurent Neural Networks and Novel Blocks
+# EFFICIENT IMAGE COMPRESSION WITH RECURRENT NEURAL NETWORKS AND NOVEL BLOCKS
 
 
 
@@ -48,7 +48,7 @@ Loading data takes time
 python train.py -f /path/32x32_images
 ```
 ## Download Models
-We provide pre-trained models on above datasets for architecture defined in paper: We will soon make more chnages in models and arhitecture. Watch out for changes to this repo.
+We provide pre-trained models on above datasets for architecture defined in paper: We will soon make more chnages in models and arhitecture. Watch out for changes to this repo. "Note", Image encoding and decoding utilizes GPU, if you have no GPU then please copy all data inside "results" folder. You can easily produce same results. 
 [Pre-trained Models](https://drive.google.com/drive/u/1/folders/1M5df3rNMS1EIEfsvm1C7PitthNZA4Hmw)
 
 ## Testing on pre-trained models

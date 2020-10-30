@@ -1,4 +1,4 @@
-# EFFICIENT IMAGE COMPRESSION WITH RECURRENT NEURAL NETWORKS AND NOVEL BLOCKS
+# Efficient Image Compression with Recuurent Neural Networks and Novel Blocks
 
 
 

@@ -43,6 +43,11 @@ Testing has been done on popular Kodak Photo dataset
 bash test/download_kodak.sh
 ```
 
+## Download Models
+We provide pre-trained models on above datasets for architecture defined in paper: We will soon make more chnages in models and arhitecture. Watch out for changes to this repo.
+[Pre-trained Models](https://drive.google.com/drive/u/1/folders/1M5df3rNMS1EIEfsvm1C7PitthNZA4Hmw)
+
+
 ## Training
 Loading data takes time
 ```bash
@@ -59,12 +64,11 @@ bash test/enc_dec.sh
 If you find this code useful for your research, please cite our work
 
 ```bash
-@inproceedings{wu2018vcii,
-  title={Image compression with recurrent neural network and generalized divisive 
-  normalization},
-  author={Khawar Islam},
+@inproceedings{IEEE International Conference on Multimedia and Expo,
+  title={Efficient Image compression with recuurent neural networks and novel blocks},
+  author={Khawar Islam and Hae Kwang Kim},
   booktitle={Under Review},
-  year={2020}
+  year={2021}
 }
 ```
 ## Acknowledgment

@@ -42,19 +42,16 @@ Testing has been done on popular Kodak Photo dataset
 ```bash
 bash test/download_kodak.sh
 ```
-
-## Download Models
-We provide pre-trained models on above datasets for architecture defined in paper: We will soon make more chnages in models and arhitecture. Watch out for changes to this repo.
-[Pre-trained Models](https://drive.google.com/drive/u/1/folders/1M5df3rNMS1EIEfsvm1C7PitthNZA4Hmw)
-
-
 ## Training
 Loading data takes time
 ```bash
 python train.py -f /path/32x32_images
 ```
+## Download Models
+We provide pre-trained models on above datasets for architecture defined in paper: We will soon make more chnages in models and arhitecture. Watch out for changes to this repo.
+[Pre-trained Models](https://drive.google.com/drive/u/1/folders/1M5df3rNMS1EIEfsvm1C7PitthNZA4Hmw)
 
-## Test
+## Testing on pre-trained models
 Encode and decode with model
 ```bash
 bash test/enc_dec.sh
@@ -71,5 +68,9 @@ If you find this code useful for your research, please cite our work
   year={2021}
 }
 ```
+## Contact
+If you find any problem in code and want to ask any question, please send us email
+khawar512@gmail.com, khawarislam@fuuast.edu.pk
+
 ## Acknowledgment
 This implementation of code is heavily borrows from Biao Zhang

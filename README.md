@@ -68,4 +68,4 @@ If you find this code useful for your research, please cite our work
 }
 ```
 ## Acknowledgment
-This implementation of code is heavily borrows from pytorch-image-comp-rnn by Biao Zhang
+This implementation of code is heavily borrows from Biao Zhang

@@ -61,11 +61,13 @@ bash test/enc_dec.sh
 If you find this code useful for your research, please cite our work
 
 ```bash
-@inproceedings{IEEE International Conference on Multimedia and Expo,
-  title={Efficient Image compression with recuurent neural networks and novel blocks},
-  author={Khawar Islam and Hae Kwang Kim},
-  booktitle={Under Review},
-  year={2021}
+@InProceedings{Islam_2021_CVPR,
+    author    = {Islam, Khawar and Dang, L. Minh and Lee, Sujin and Moon, Hyeonjoon},
+    title     = {Image Compression With Recurrent Neural Network and Generalized Divisive Normalization},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+    month     = {June},
+    year      = {2021},
+    pages     = {1875-1879}
 }
 ```
 ## Contact

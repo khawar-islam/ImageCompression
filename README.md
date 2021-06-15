@@ -1,4 +1,4 @@
-# EFFICIENT IMAGE COMPRESSION WITH RECURRENT NEURAL NETWORKS AND NOVEL BLOCKS
+# Image Compression with Recurrent Neural Network and Generalized Divisive Normalization
 
 
 
